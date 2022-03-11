@@ -552,6 +552,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-self: center;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }

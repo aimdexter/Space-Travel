@@ -10,24 +10,34 @@
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 
-<body>
-  <div class="header">
-    <div class="menu text-3xl font-bold underline">
-      00 Home
-      01 Destination
-      02 Crew
-      03 Technology
+<body style="background-image: url('./assets/home/background-home-mobile.jpg')">
+  <div class="flex flex-col text-grayit pt-4 pr-4 pl-4 max-w-full gap-9">
+    <div class="flex justify-between">
+      <div class="logo">
+        <img class="" src="./assets/home/logo.svg" alt="logo">
+      </div>
+      <div class="flex lg:block sm:hidden text-gr font-Bellefair">
+        <img class="" src="./assets/home/menu.svg" alt="logo">
+        <div class="hidden">
+          <div class="home hidden">00 Home</div>
+          <div class="destination">01 Destination</div>
+          <div class="crew">02 Crew</div>
+          <div class="technology">03 Technology</div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="main">
-    <title-1>So, you want to travel to</title-1>
-    <div class="title-2">Space</div>
-    <div class="para">
-      Let’s face it; if you want to go to space, you might as well genuinely go to
-      outer space and not hover kind of on the edge of it. Well sit back, and relax
-      because we’ll give you a truly out of this world experience!
+    <div class="flex flex-col font-normal text-center gap-y-8">
+      <div class="font-Barlow text-lg	tracking-widest leading-5 uppercase">So, you want to travel to</div>
+      <div class="font-Bellefair text-8xl">Space</div>
+      <div class="font-Barlow text-base leading-8">
+        Let’s face it; if you want to go to space, you might as well genuinely go to
+        outer space and not hover kind of on the edge of it. Well sit back, and relax
+        because we’ll give you a truly out of this world experience!
+      </div>
+      <div class="flex flex-shrink grow pt-7">
+        <img class="grow w-40 h-40" src="./assets/home/explore.svg" alt="">
+      </div>
     </div>
-    <div class="explore">Explore</div>
   </div>
 
 </body>

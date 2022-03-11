@@ -1,0 +1,33 @@
+{
+  "name": "space-travel",
+  "version": "1.0.0",
+  "description": "This is a solution to the Space tourism website challenge on Frontend Mentor",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimdexter/Space-Travel.git"
+  },
+  "keywords": [
+    "Space",
+    "Travel",
+    "front",
+    "end",
+    "mentor"
+  ],
+  "author": "Aimade Anouar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimdexter/Space-Travel/issues"
+  },
+  "homepage": "https://github.com/aimdexter/Space-Travel#readme"
+}

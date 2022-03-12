@@ -468,48 +468,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .hidden {
   display: none;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.w-36 {
-  width: 9rem;
-}
-
-.w-14 {
-  width: 3.5rem;
+.h-40 {
+  height: 10rem;
 }
 
 .w-40 {
@@ -544,20 +516,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2.25rem;
 }
 
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
-.gap-y-9 {
-  row-gap: 2.25rem;
-}
-
 .gap-y-8 {
   row-gap: 2rem;
 }
 
-.justify-self-center {
-  justify-self: center;
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-indigo-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(99 102 241 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-\[url\(\'\.\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
+  background-image: url('../assets/home/background-home-mobile.jpg');
 }
 
 .bg-cover {
@@ -566,6 +544,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .pt-4 {
@@ -580,52 +562,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
-.pt-11 {
-  padding-top: 2.75rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-44 {
-  padding-top: 11rem;
-}
-
-.pt-52 {
-  padding-top: 13rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-Bellefair {
@@ -636,19 +610,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Barlow, sans-serif;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-8xl {
@@ -656,8 +620,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-normal {
@@ -672,20 +637,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
-}
-
 .leading-8 {
   line-height: 2rem;
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
+.tracking-\[0\.5rem\] {
+  letter-spacing: 0.5rem;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
+.tracking-widester {
+  letter-spacing: 0.5rem;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-grayit {
@@ -693,14 +658,119 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(208 214 249 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:border-b-4:hover {
+  border-bottom-width: 4px;
+}
+
+@media (min-width: 768px) {
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
     display: none;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-60 {
+    height: 15rem;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
+    background-image: url('../assets/home/background-home-tablet.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/home\/menu-bg\.svg\'\)\] {
+    background-image: url('../assets/home/menu-bg.svg');
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .md\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .md\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:uppercase {
+    text-transform: uppercase;
+  }
+
+  .md\:tracking-widester {
+    letter-spacing: 0.5rem;
+  }
+
+  .md\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+
+  .md\:hover\:text-red-500:hover {
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
+  .lg\:hidden {
+    display: none;
   }
 }

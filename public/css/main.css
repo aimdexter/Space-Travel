@@ -901,6 +901,42 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: 167px;
   }
 
+  .xl\:right-\[167px\] {
+    right: 167px;
+  }
+
+  .xl\:right-\[0px\] {
+    right: 0px;
+  }
+
+  .xl\:right-\[3rem\] {
+    right: 3rem;
+  }
+
+  .xl\:right-\[-10rem\] {
+    right: -10rem;
+  }
+
+  .xl\:right-\[10px\] {
+    right: 10px;
+  }
+
+  .xl\:right-\[1rem\] {
+    right: 1rem;
+  }
+
+  .xl\:right-\[2rem\] {
+    right: 2rem;
+  }
+
+  .xl\:right-80 {
+    right: 20rem;
+  }
+
+  .xl\:right-\[800px\] {
+    right: 800px;
+  }
+
   .xl\:mt-40 {
     margin-top: 10rem;
   }
@@ -915,6 +951,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:hidden {
     display: none;
+  }
+
+  .xl\:h-0 {
+    height: 0px;
   }
 
   .xl\:w-\[830px\] {

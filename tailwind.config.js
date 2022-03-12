@@ -18,7 +18,10 @@ module.exports = {
       },
       letterSpacing: {
         widester: '0.5rem',
-      }
+      },
+      screens: {
+        'desktop': '1440px',
+      },
     },
   },
   plugins: [],

@@ -504,12 +504,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 300px;
 }
 
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-40 {
   width: 10rem;
 }
 
 .w-\[170px\] {
   width: 170px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-full {
@@ -536,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -558,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-y-96 {
+  row-gap: 24rem;
 }
 
 .border-white {
@@ -659,6 +677,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 400;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -728,6 +754,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 7rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -748,6 +790,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 15rem;
   }
 
+  .md\:h-\[170px\] {
+    height: 170px;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .md\:min-h-max {
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+
   .md\:w-\[500px\] {
     width: 500px;
   }
@@ -756,12 +816,52 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 15rem;
   }
 
+  .md\:w-\[170px\] {
+    width: 170px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:items-center {
     align-items: center;
   }
 
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:justify-evenly {
     justify-content: space-evenly;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:gap-14 {
+    gap: 3.5rem;
+  }
+
+  .md\:self-start {
+    align-self: flex-start;
   }
 
   .md\:bg-\[url\(\'\.\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
@@ -770,6 +870,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:bg-\[url\(\'\.\.\/assets\/home\/menu-bg\.svg\'\)\] {
     background-image: url('../assets/home/menu-bg.svg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/home\/background-destination-tablet\.jpg\'\)\] {
+    background-image: url('../assets/home/background-destination-tablet.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-tablet\.jpg\'\)\] {
+    background-image: url('../assets/destination/background-destination-tablet.jpg');
   }
 
   .md\:pt-0 {
@@ -790,6 +898,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-24 {
     padding-left: 6rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
   }
 
   .md\:text-xl {

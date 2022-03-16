@@ -468,6 +468,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -484,8 +492,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
+.h-\[170px\] {
+  height: 170px;
+}
+
+.h-\[180px\] {
+  height: 180px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
 .w-40 {
   width: 10rem;
+}
+
+.w-\[170px\] {
+  width: 170px;
 }
 
 .max-w-full {
@@ -500,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-grow: 1;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -512,8 +540,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-y-8 {
@@ -527,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'\.\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
   background-image: url('../assets/home/background-home-mobile.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/destination\/background-destination-mobile\.jpg\'\)\] {
+  background-image: url('../assets/destination/background-destination-mobile.jpg');
 }
 
 .bg-cover {
@@ -561,6 +605,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 4rem;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -586,6 +638,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-normal {
@@ -618,8 +685,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.decoration-sky-500 {
+  -webkit-text-decoration-color: #0ea5e9;
+          text-decoration-color: #0ea5e9;
+}
+
+.placeholder-blue-50::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-blue-50:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-blue-50::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
 .hover\:border-b-4:hover {
   border-bottom-width: 4px;
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @media (min-width: 768px) {
@@ -716,28 +817,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1280px) {
-  .xl\:absolute {
-    position: absolute;
-  }
-
   .xl\:relative {
     position: relative;
   }
 
-  .xl\:top-\[88px\] {
-    top: 88px;
-  }
-
-  .xl\:right-\[800px\] {
-    right: 800px;
-  }
-
   .xl\:mt-40 {
     margin-top: 10rem;
-  }
-
-  .xl\:block {
-    display: block;
   }
 
   .xl\:flex {

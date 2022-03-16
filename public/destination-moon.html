@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link href="./css/main.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<body
+  class="bg-cover h-screen bg-no-repeat bg-[url('../assets/destination/background-destination-mobile.jpg')] md:bg-[url('../assets/home/background-home-tablet.jpg')] xl:bg-[url('../assets/home/background-home-desktop.jpg')]">
+  <div class="flex flex-col text-grayit pt-4 pr-4 pl-4 max-w-full gap-9 md:pt-0 md:pr-0 md:pl-8">
+    <div class="flex justify-between items-center">
+      <div class="logo">
+        <img class="md:hidden" src="./assets/home/logo.svg" alt="logo">
+        <img class="hidden md:block xl:pt-10 xl:pl-9" src="./assets/home/logo-tablet.svg" alt="logo">
+      </div>
+      <div class="flex text-grayit font-Bellefair xl:pt-10 xl:relative">
+        <div class="md:hidden"><img src="./assets/home/menu.svg" alt="menu"></div>
+        <div
+          class="hidden md:flex md:items-center md:justify-evenly md:w-[500px] md:h-24 md:uppercase md:bg-[url('../assets/home/menu-bg.svg')] xl:bg-[url('../assets/home/menu-desktop.jpg')] xl:w-[830px] ">
+          <div class="hover:border-b-4 border-white pb-5 pt-5">Home</div>
+          <div class="hover:border-b-4 border-white pb-5 pt-5">Destination</div>
+          <div class="hover:border-b-4 border-white pb-5 pt-5">Crew</div>
+          <div class="hover:border-b-4 border-white pb-5 pt-5">Technology</div>
+        </div>
+      </div>
+      <div class="hidden desktop:block desktop:absolute desktop:top-[88px] desktop:right-[800px]">
+        <img src="./assets/home/ligne.jpg" alt="">
+      </div>
+    </div>
+    <div class="flex flex-col xl:flex-row font-normal text-center xl:text-left gap-y-8 md:mt-28 xl:mt-40">
+      <div class="xl:flex xl:flex-col xl:flex-1 xl:gap-y-14 xl:pl-[165px]">
+        <div
+          class="font-Barlow text-lg md:text-xl tracking-wider md:tracking-widester leading-5 uppercase xl:text-[28px]">
+          <span class="opacity-50">01</span> Pick your destination
+        </div>
+        <div class="flex flex-shrink grow pt-16 xl:flex-1">
+          <img class="grow w-[170px] h-[170px] " src="./assets/destination/image-moon.svg" alt="">
+        </div>
+        <div
+          class="flex flex-row font-Barlow tracking-wider uppercase mt-5 mb-5 justify-evenly md:flex md:items-center md:justify-evenly md:w-[500px] md:h-24 md:uppercase ">
+          <div class="hover:border-b-4 border-white">Moon</div>
+          <div class="hover:border-b-4 border-white  opacity-50">Mars</div>
+          <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
+          <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
+          <div class="hover:border-b-4 border-white  opacity-50">Titan</div>
+        </div>
+        <div class="font-Bellefair uppercase text-8xl text-white md:text-9xl">Moon</div>
+        <div
+          class="font-Barlow text-base leading-8 md:text-lg md:pr-24 md:pl-24 xl:pl-0 xl:text-[18px] xl:leading-loose">
+          See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.
+        </div>
+        <div class="pt-7 pb-7">
+          <hr>
+        </div>
+        <div class="flex flex-col gap-5 uppercase font-Barlow">
+          <div class="">
+            <div class="text-base tracking-wider opacity-50">Avg. distance</div>
+            <div class="text-3xl">384,400 km</div>
+          </div>
+          <div class="mb-5">
+            <div class="text-base tracking-wider opacity-50">Est. travel time</div>
+            <div class="text-3xl">3 days</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
 </body>
+
 </html>

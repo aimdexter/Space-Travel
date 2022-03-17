@@ -1160,4 +1160,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   .desktop\:block {
     display: block;
   }
+
+  .desktop\:h-\[445px\] {
+    height: 445px;
+  }
+
+  .desktop\:h-full {
+    height: 100%;
+  }
+
+  .desktop\:h-fit {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .desktop\:w-\[445px\] {
+    width: 445px;
+  }
+
+  .desktop\:flex-row {
+    flex-direction: row;
+  }
+
+  .desktop\:flex-col {
+    flex-direction: column;
+  }
+
+  .desktop\:bg-auto {
+    background-size: auto;
+  }
+
+  .desktop\:bg-contain {
+    background-size: contain;
+  }
+
+  .desktop\:pl-\[165px\] {
+    padding-left: 165px;
+  }
+
+  .desktop\:pl-\[140px\] {
+    padding-left: 140px;
+  }
+
+  .desktop\:pl-\[100px\] {
+    padding-left: 100px;
+  }
 }

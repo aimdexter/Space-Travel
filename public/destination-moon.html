@@ -11,8 +11,8 @@
 </head>
 
 <body
-  class="bg-cover h-fit bg-no-repeat bg-[url('../assets/destination/background-destination-mobile.jpg')] md:bg-[url('../assets/destination/background-destination-tablet.jpg')] xl:bg-[url('../assets/home/background-home-desktop.jpg')]">
-  <div class="flex flex-col text-grayit pt-4 pr-4 pl-4 max-w-full gap-9 md:pt-0 md:pr-0 md:pl-8">
+  class="bg-cover h-fit lg:h-full lg:bg-auto lg: bg-no-repeat bg-[url('../assets/destination/background-destination-mobile.jpg')] md:bg-[url('../assets/destination/background-destination-tablet.jpg')] lg:bg-[url('../assets/destination/background-destination-desktop.jpg')]">
+  <div class="flex flex-col text-grayit pt-4 pr-4 pl-4 max-w-full lg:h-full gap-9 md:pt-0 md:pr-0 md:pl-8">
     <div class="flex justify-between items-center">
       <div class="logo">
         <img class="md:hidden" src="./assets/home/logo.svg" alt="logo">
@@ -33,41 +33,46 @@
       </div>
     </div>
     <div class="flex flex-col xl:flex-row font-normal text-center xl:text-left gap-y-8 md:mt-2 xl:mt-40">
-      <div class="xl:flex xl:flex-col xl:flex-1 xl:gap-y-14 xl:pl-[165px]">
-        <div
-          class="font-Barlow text-lg md:text-xl tracking-wider md:flex md:tracking-widester leading-5 uppercase xl:text-[28px]">
-          <span class="opacity-50">01</span> Pick your destination
-        </div>
-        <div class="flex flex-shrink grow pt-16 xl:flex-1">
-          <img class="grow w-[170px] h-[170px] md:w-[300px] md:h-[300px]" src="./assets/destination/image-moon.svg"
-            alt="">
-        </div>
-        <div
-          class="flex flex-row font-Barlow tracking-wider uppercase mt-5 mb-5 justify-around md:justify-center md:gap-14 md:mt-10 md:mb-10">
-          <div class="hover:border-b-4 border-white">Moon</div>
-          <div class="hover:border-b-4 border-white  opacity-50">Mars</div>
-          <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
-          <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
-          <div class="hover:border-b-4 border-white  opacity-50">Titan</div>
-        </div>
-        <div class="font-Bellefair uppercase text-8xl text-white md:text-9xl">Moon</div>
-        <div
-          class="font-Barlow text-base leading-8 md:text-lg md:pr-24 md:pl-24 xl:pl-0 xl:text-[18px] xl:leading-loose md:mt-10">
-          See our planet as you’ve never seen it before. A perfect relaxing trip away to help
-          regain perspective and come back refreshed. While you’re there, take in some history
-          by visiting the Luna 2 and Apollo 11 landing sites.
-        </div>
-        <div class="pt-7 pb-7 md:pt-10 md:pb-10 md:pr-10">
-          <hr>
-        </div>
-        <div class="flex flex-col gap-5 uppercase font-Barlow md:flex-row md:justify-evenly">
-          <div class="">
-            <div class="text-base tracking-wider opacity-50">Avg. distance</div>
-            <div class="text-3xl">384,400 km</div>
+      <div class="xl:flex xl:flex-col xl:flex-1 xl:gap-y-14 xl:pl-[165px] lg:flex lg:flex-row">
+        <div class="lg:flex-1 lg:flex lg:flex-col lg:gap-8">
+          <div
+            class="font-Barlow text-lg md:text-xl tracking-wider md:flex md:tracking-widester leading-5 uppercase xl:text-[28px]">
+            <span class="opacity-50">01</span> Pick your destination
           </div>
-          <div class="mb-5">
-            <div class="text-base tracking-wider opacity-50">Est. travel time</div>
-            <div class="text-3xl">3 days</div>
+          <div class="flex flex-shrink grow pt-16 xl:flex-1">
+            <img class="grow w-[170px] h-[170px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px]"
+              src="./assets/destination/image-moon.svg" alt="moon">
+          </div>
+        </div>
+        <div class="lg:flex-1 lg:text-left lg:flex lg:flex-col lg:gap-8">
+          <div
+            class="flex flex-row font-Barlow lg:justify-start lg:pl-0 lg:gap-8 tracking-wider uppercase mt-5 mb-5 justify-around md:justify-center md:gap-14 md:mt-10 md:mb-10">
+            <div class="hover:border-b-4 border-white">Moon</div>
+            <div class="hover:border-b-4 border-white  opacity-50">Mars</div>
+            <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
+            <div class="hover:border-b-4 border-white  opacity-50">Europa</div>
+            <div class="hover:border-b-4 border-white  opacity-50">Titan</div>
+          </div>
+          <div class="font-Bellefair uppercase text-8xl text-white md:text-9xl ">Moon</div>
+          <div
+            class="font-Barlow text-base lg:pl-0 leading-8 md:text-lg md:pr-24 lg:pr-11 md:pl-24 xl:pl-0 xl:text-[18px] xl:leading-loose md:mt-10">
+            See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+            regain perspective and come back refreshed. While you’re there, take in some history
+            by visiting the Luna 2 and Apollo 11 landing sites.
+          </div>
+          <div class="pt-7 pb-7 md:pt-10 md:pb-10 md:pr-10">
+            <hr>
+          </div>
+          <div
+            class="flex flex-col gap-5  uppercase font-Barlow md:flex-row md:justify-evenly lg:justify-start lg:gap-40">
+            <div class="lg:text-left">
+              <div class="text-base tracking-wider  opacity-50">Avg. distance</div>
+              <div class="text-3xl">384,400 km</div>
+            </div>
+            <div class="mb-5">
+              <div class="text-base tracking-wider opacity-50">Est. travel time</div>
+              <div class="text-3xl">3 days</div>
+            </div>
           </div>
         </div>
       </div>

@@ -591,6 +591,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../assets/destination/background-destination-mobile.jpg');
 }
 
+.bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
+  background-image: url('../assets/destination/background-destination-desktop.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -936,6 +940,132 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:h-\[445px\] {
+    height: 445px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
+  .lg\:w-\[445px\] {
+    width: 445px;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .lg\:flex-grow {
+    flex-grow: 1;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
+  .lg\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
+  .lg\:gap-48 {
+    gap: 12rem;
+  }
+
+  .lg\:gap-40 {
+    gap: 10rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+  }
+
+  .lg\:bg-auto {
+    background-size: auto;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .lg\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .lg\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .lg\:pr-11 {
+    padding-right: 2.75rem;
+  }
+
+  .lg\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:relative {
     position: relative;
@@ -975,6 +1105,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:bg-\[url\(\'\.\.\/assets\/home\/menu-desktop\.jpg\'\)\] {
     background-image: url('../assets/home/menu-desktop.jpg');
+  }
+
+  .xl\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
   }
 
   .xl\:pt-10 {

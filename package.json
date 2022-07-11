@@ -1,11 +1,7 @@
 {
   "name": "space-travel",
   "version": "1.0.0",
-<<<<<<< HEAD
   "type": "commonjs",
-=======
-  "type": "module",
->>>>>>> 5fdb23464dcd367cb4ae57da13c9cc319201e115
   "description": "This is a solution to the Space tourism website challenge on Frontend Mentor",
   "main": "postcss.config.js",
   "dependencies": {

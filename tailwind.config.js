@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./public/**/*.{html,js}",
     "./public/*",
+    "../SPACE-TRAVEL/*",
   ],
   theme: {
     extend: {

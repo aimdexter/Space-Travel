@@ -484,6 +484,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[170px\] {
+  height: 170px;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -492,34 +502,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
-.h-\[170px\] {
-  height: 170px;
-}
-
-.h-\[180px\] {
-  height: 180px;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
 .w-\[170px\] {
   width: 170px;
 }
 
-.w-full {
-  width: 100%;
+.w-40 {
+  width: 10rem;
 }
 
 .max-w-full {
@@ -546,20 +534,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
 
 .justify-around {
   justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
 }
 
 .gap-9 {
@@ -574,25 +554,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   row-gap: 2rem;
 }
 
-.gap-y-96 {
-  row-gap: 24rem;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.bg-\[url\(\'\.\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
-  background-image: url('../assets/home/background-home-mobile.jpg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/destination\/background-destination-mobile\.jpg\'\)\] {
   background-image: url('../assets/destination/background-destination-mobile.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
-  background-image: url('../assets/destination/background-destination-desktop.jpg');
+.bg-\[url\(\'\.\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
+  background-image: url('../assets/home/background-home-mobile.jpg');
 }
 
 .bg-cover {
@@ -662,16 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -679,14 +641,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-normal {
   font-weight: 400;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .uppercase {
@@ -715,31 +669,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.decoration-sky-500 {
-  -webkit-text-decoration-color: #0ea5e9;
-          text-decoration-color: #0ea5e9;
-}
-
-.placeholder-blue-50::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
-}
-
-.placeholder-blue-50:-ms-input-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
-}
-
-.placeholder-blue-50::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(239 246 255 / var(--tw-placeholder-opacity));
-}
-
 .opacity-50 {
   opacity: 0.5;
 }
@@ -748,20 +677,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 4px;
 }
 
-.hover\:underline:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
 @media (min-width: 768px) {
-  .md\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:mt-2 {
     margin-top: 0.5rem;
   }
@@ -772,6 +688,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
   .md\:block {
@@ -790,46 +710,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 6rem;
   }
 
-  .md\:h-60 {
-    height: 15rem;
-  }
-
-  .md\:h-\[170px\] {
-    height: 170px;
-  }
-
-  .md\:h-full {
-    height: 100%;
-  }
-
   .md\:h-\[300px\] {
     height: 300px;
   }
 
-  .md\:min-h-max {
-    min-height: -webkit-max-content;
-    min-height: -moz-max-content;
-    min-height: max-content;
+  .md\:h-60 {
+    height: 15rem;
   }
 
   .md\:w-\[500px\] {
     width: 500px;
   }
 
-  .md\:w-60 {
-    width: 15rem;
-  }
-
-  .md\:w-\[170px\] {
-    width: 170px;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:w-\[300px\] {
     width: 300px;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
   }
 
   .md\:flex-row {
@@ -848,40 +746,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-evenly;
   }
 
-  .md\:gap-0 {
-    gap: 0px;
-  }
-
-  .md\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .md\:gap-12 {
-    gap: 3rem;
-  }
-
   .md\:gap-14 {
     gap: 3.5rem;
   }
 
-  .md\:self-start {
-    align-self: flex-start;
-  }
-
-  .md\:bg-\[url\(\'\.\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
-    background-image: url('../assets/home/background-home-tablet.jpg');
+  .md\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-tablet\.jpg\'\)\] {
+    background-image: url('../assets/destination/background-destination-tablet.jpg');
   }
 
   .md\:bg-\[url\(\'\.\.\/assets\/home\/menu-bg\.svg\'\)\] {
     background-image: url('../assets/home/menu-bg.svg');
   }
 
-  .md\:bg-\[url\(\'\.\.\/assets\/home\/background-destination-tablet\.jpg\'\)\] {
-    background-image: url('../assets/home/background-destination-tablet.jpg');
-  }
-
-  .md\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-tablet\.jpg\'\)\] {
-    background-image: url('../assets/destination/background-destination-tablet.jpg');
+  .md\:bg-\[url\(\'\.\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
+    background-image: url('../assets/home/background-home-tablet.jpg');
   }
 
   .md\:pt-0 {
@@ -949,20 +827,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
-  .lg\:h-\[445px\] {
-    height: 445px;
-  }
-
   .lg\:h-\[400px\] {
     height: 400px;
-  }
-
-  .lg\:w-16 {
-    width: 4rem;
-  }
-
-  .lg\:w-\[445px\] {
-    width: 445px;
   }
 
   .lg\:w-\[400px\] {
@@ -971,10 +837,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-1 {
     flex: 1 1 0%;
-  }
-
-  .lg\:flex-grow {
-    flex-grow: 1;
   }
 
   .lg\:flex-row {
@@ -989,76 +851,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: flex-start;
   }
 
-  .lg\:justify-between {
-    justify-content: space-between;
-  }
-
-  .lg\:gap-0 {
-    gap: 0px;
-  }
-
-  .lg\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .lg\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .lg\:gap-24 {
-    gap: 6rem;
-  }
-
-  .lg\:gap-48 {
-    gap: 12rem;
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:gap-40 {
     gap: 10rem;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
-  }
-
-  .lg\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .lg\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
     background-image: url('../assets/destination/background-destination-desktop.jpg');
-  }
-
-  .lg\:bg-auto {
-    background-size: auto;
   }
 
   .lg\:pl-0 {
     padding-left: 0px;
   }
 
-  .lg\:pr-5 {
-    padding-right: 1.25rem;
-  }
-
-  .lg\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
   .lg\:pr-11 {
     padding-right: 2.75rem;
-  }
-
-  .lg\:pl-2 {
-    padding-left: 0.5rem;
-  }
-
-  .lg\:pl-5 {
-    padding-left: 1.25rem;
-  }
-
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
   }
 
   .lg\:text-left {
@@ -1099,16 +909,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     row-gap: 3.5rem;
   }
 
-  .xl\:bg-\[url\(\'\.\.\/assets\/home\/background-home-desktop\.jpg\'\)\] {
-    background-image: url('../assets/home/background-home-desktop.jpg');
-  }
-
   .xl\:bg-\[url\(\'\.\.\/assets\/home\/menu-desktop\.jpg\'\)\] {
     background-image: url('../assets/home/menu-desktop.jpg');
   }
 
-  .xl\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
-    background-image: url('../assets/destination/background-destination-desktop.jpg');
+  .xl\:bg-\[url\(\'\.\.\/assets\/home\/background-home-desktop\.jpg\'\)\] {
+    background-image: url('../assets/home/background-home-desktop.jpg');
   }
 
   .xl\:pt-10 {
@@ -1119,12 +925,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 2.25rem;
   }
 
-  .xl\:pl-\[165px\] {
-    padding-left: 165px;
-  }
-
   .xl\:pl-0 {
     padding-left: 0px;
+  }
+
+  .xl\:pl-\[165px\] {
+    padding-left: 165px;
   }
 
   .xl\:text-left {
@@ -1165,38 +971,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 445px;
   }
 
-  .desktop\:h-full {
-    height: 100%;
-  }
-
-  .desktop\:h-fit {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .desktop\:w-\[445px\] {
     width: 445px;
   }
 
   .desktop\:flex-row {
     flex-direction: row;
-  }
-
-  .desktop\:flex-col {
-    flex-direction: column;
-  }
-
-  .desktop\:bg-auto {
-    background-size: auto;
-  }
-
-  .desktop\:bg-contain {
-    background-size: contain;
-  }
-
-  .desktop\:pl-\[165px\] {
-    padding-left: 165px;
   }
 
   .desktop\:pl-\[140px\] {

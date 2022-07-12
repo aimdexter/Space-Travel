@@ -1,7 +1,7 @@
-const home = "/index.html";
-const destinationpage = "/public/destination.html";
-const crewpage = "/public/crew.html";
-const technologypage = "/public/Technology.html";
+const home = "/Space-Travel/index.html";
+const destinationpage = "/Space-Travel/public/destination.html";
+const crewpage = "/Space-Travel/public/crew.html";
+const technologypage = "/Space-Travel/public/Technology.html";
 
 document.getElementById("home").href = home;
 document.getElementById("destination").href = destinationpage;

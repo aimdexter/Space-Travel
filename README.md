@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page solution
 
-This is a solution to the [Social proof sectionr](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/social-proof-section-H14fvK3S9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Space-Travel](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/social-proof-section-H14fvK3S9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 

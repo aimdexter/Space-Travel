@@ -669,6 +669,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../assets/crew/background-crew-mobile.jpg');
 }
 
+.bg-\[url\(\'\.\.\/assets\/technology\/background-technology-mobile\.jpg\'\)\] {
+  background-image: url('../assets/technology/background-technology-mobile.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -948,6 +952,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
   .md\:flex-col-reverse {
     flex-direction: column-reverse;
   }
@@ -990,6 +998,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:bg-\[url\(\'\.\.\/assets\/crew\/background-crew-tablet\.jpg\'\)\] {
     background-image: url('../assets/crew/background-crew-tablet.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/assets\/technology\/background-technology-tablet\.jpg\'\)\] {
+    background-image: url('../assets/technology/background-technology-tablet.jpg');
   }
 
   .md\:py-2 {
@@ -1155,6 +1167,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:bg-\[url\(\'\.\.\/assets\/crew\/background-crew-desktop\.jpg\'\)\] {
     background-image: url('../assets/crew/background-crew-desktop.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/technology\/background-technology-desktop\.jpg\'\)\] {
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
   }
 
   .lg\:pl-0 {

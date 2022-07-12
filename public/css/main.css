@@ -1043,6 +1043,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
   }
@@ -1197,6 +1201,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .desktop\:flex-row {
     flex-direction: row;
+  }
+
+  .desktop\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .desktop\:gap-0 {

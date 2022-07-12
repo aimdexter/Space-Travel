@@ -19,11 +19,13 @@ const renderDetails = async (nameeu) => {
     const descriptionn = `
   ${reponse[0].description}
 `
-    const image = reponse[0].images.landscape;
-    document.getElementById("image").src = image;
+
+
 
     crewnamee.innerHTML = name;
     bioo.innerHTML = descriptionn;
+    const image = reponse[0].images.landscape;
+    document.getElementById("image").src = image;
 }
 
 let buttonList = document.querySelectorAll("button");
@@ -34,4 +36,4 @@ buttonList.forEach(function (i) {
 })
 
 
-// window.addEventListener('DOMContentLoaded', () => renderDetails());
+window.addEventListener('DOMContentLoaded', () => renderDetails());

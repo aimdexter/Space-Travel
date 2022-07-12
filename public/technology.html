@@ -24,11 +24,12 @@
             <div class="flex text-grayit font-Bellefair xl:pt-10 xl:relative">
                 <div class="md:hidden"><img src="./assets/home/menu.svg" alt="menu"></div>
                 <div
-                    class="hidden md:flex md:items-center md:justify-evenly md:w-[500px] md:h-24 md:uppercase md:bg-[url('../assets/home/menu-bg.svg')] xl:bg-[url('../assets/home/menu-desktop.jpg')] xl:w-[830px] ">
-                    <div class="hover:border-b-4 border-white pb-5 pt-5">Home</div>
-                    <div class="hover:border-b-4 border-white pb-5 pt-5">Destination</div>
-                    <div class="hover:border-b-4 border-white pb-5 pt-5">Crew</div>
-                    <div class="hover:border-b-4 border-white pb-5 pt-5">Technology</div>
+                    class="hidden md:flex md:items-center md:justify-evenly md:w-[500px] md:h-24 md:uppercase md:bg-[url('../public/assets/home/menu-bg.svg')] xl:bg-[url('../public/assets/home/menu-desktop.jpg')] xl:w-[830px] ">
+                    <div class="hover:border-b-4 border-white pb-5 pt-5"><a id="home" href="/">Home</a></div>
+                    <div class="hover:border-b-4 border-white pb-5 pt-5"><a id="destination" href="">Destination</a>
+                    </div>
+                    <div class="hover:border-b-4 border-white pb-5 pt-5"><a id="crew" href="">Crew</a></div>
+                    <div class="hover:border-b-4 border-white pb-5 pt-5"><a id="technology" href="">Technology</a></div>
                 </div>
             </div>
             <div class="hidden desktop:block desktop:absolute desktop:top-[88px] desktop:right-[800px]">
@@ -94,6 +95,7 @@
             </div>
         </div>
     </div>
+    <script src="../src/js/data/menu.js"></script>
     <script src="../src/js/data/technology.js"></script>
 </body>
 

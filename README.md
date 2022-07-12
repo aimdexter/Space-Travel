@@ -1,4 +1,4 @@
-# Frontend Mentor - Clipboard landing page solution
+# Frontend Mentor - Space-Travel solution
 
 This is a solution to the [Space-Travel](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub/space-tourism-multipage-website-vn33VyCjF). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 

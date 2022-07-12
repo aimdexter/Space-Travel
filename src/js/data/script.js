@@ -11,7 +11,6 @@ const renderDetails = async (nameeu) => {
   if (!res.ok) {
     window.location.replace("/");
   }
-  console.log(res);
   const descr = await res.json();
   const desc = `
     ${descr[0].description}

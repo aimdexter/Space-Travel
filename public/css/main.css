@@ -510,6 +510,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 10rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -534,6 +538,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -554,9 +562,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   row-gap: 2rem;
 }
 
+.self-center {
+  align-self: center;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+
+.border-b-\[0\.5px\] {
+  border-bottom-width: 0.5px;
+}
+
+.border-b-\[0\.2px\] {
+  border-bottom-width: 0.2px;
+}
+
+.border-b-\[0\.1px\] {
+  border-bottom-width: 0.1px;
+}
+
+.border-b-\[0px\] {
+  border-bottom-width: 0px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-violet-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
@@ -567,12 +612,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../assets/destination/background-destination-mobile.jpg');
 }
 
+.bg-\[url\(\'\.\.\/assets\/crew\/background-crew-mobile\.jpg\'\)\] {
+  background-image: url('../assets/crew/background-crew-mobile.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pt-4 {
@@ -639,6 +693,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -653,6 +727,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-8 {
   line-height: 2rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .tracking-wider {
@@ -679,6 +761,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:border-b-4:hover {
   border-bottom-width: 4px;
+}
+
+.hover\:bg-violet-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -787,6 +874,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-image: url('../assets/home/menu-bg.svg');
   }
 
+  .md\:bg-\[url\(\'\.\.\/assets\/crew\/background-crew-tablet\.jpg\'\)\] {
+    background-image: url('../assets/crew/background-crew-tablet.jpg');
+  }
+
   .md\:pt-0 {
     padding-top: 0px;
   }
@@ -852,6 +943,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .lg\:flex-1 {
     flex: 1 1 0%;
   }
@@ -868,6 +973,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: flex-start;
   }
 
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -876,8 +989,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 10rem;
   }
 
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
   .lg\:bg-\[url\(\'\.\.\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
     background-image: url('../assets/destination/background-destination-desktop.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/crew\/background-crew-desktop\.jpg\'\)\] {
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
   }
 
   .lg\:pl-0 {
@@ -990,6 +1115,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .desktop\:flex-row {
     flex-direction: row;
+  }
+
+  .desktop\:gap-0 {
+    gap: 0px;
   }
 
   .desktop\:pl-\[140px\] {

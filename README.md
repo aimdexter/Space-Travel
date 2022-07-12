@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page solution
 
-This is a solution to the [Space-Travel](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/social-proof-section-H14fvK3S9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Space-Travel](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub/space-tourism-multipage-website-vn33VyCjF). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -36,19 +36,11 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
-- Desktop
-![](./src/images/desktop.png)
-
-- Mobile
-
-![](./src/images/mobile.png)
-
 ### Links
 
-- Solution URL: [Github](https://github.com/aimdexter/social_proof)
+- Solution URL: [Github](https://github.com/aimdexter/Space-Travel)
 
-- Live Site URL: [Demo](https://aimdexter.github.io/social_proof/)
+- Live Site URL: [Demo](https://aimdexter.github.io/Space-Travel/)
 
 ## My process
 
@@ -60,6 +52,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Vanilla Javascript
 
 ## Author
 

@@ -1199,6 +1199,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
+  .desktop\:hidden {
+    display: none;
+  }
+
   .desktop\:flex-row {
     flex-direction: row;
   }

@@ -5,7 +5,7 @@ const bioo = document.querySelector('.bio');
 
 // fetching data from json
 const renderDetails = async (nameeu) => {
-  const res = await fetch(`http://localhost:3000/crew/` + `?name=${nameeu}`);
+  const res = await fetch(`https://my-json-server.typicode.com/aimdexter/space-travel-json/crew/` + `?name=${nameeu}`);
   if (!res.ok) {
     window.location.replace("/");
   }

@@ -7,7 +7,7 @@ const day = document.querySelector('.days');
 
 // fetching data from json
 const renderDetails = async (nameeu) => {
-  const res = await fetch(`http://localhost:3000/destinations/` + `?name=${nameeu}`);
+  const res = await fetch(`https://my-json-server.typicode.com/aimdexter/space-travel-json/destinations/` + `?name=${nameeu}`);
   if (!res.ok) {
     window.location.replace("/");
   }

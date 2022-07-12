@@ -15,7 +15,7 @@
     bg-[url('../assets/crew/background-crew-mobile.jpg')] 
     md:bg-[url('../assets/crew/background-crew-tablet.jpg')] 
     lg:bg-[url('../assets/crew/background-crew-desktop.jpg')]">
-    <div class="flex flex-col text-grayit pt-4 pr-4 pl-4 max-w-full lg:h-full gap-9 md:pt-0 md:pr-0 md:pl-8">
+    <div class="flex flex-col  text-grayit pt-4 pr-4 pl-4 max-w-full lg:h-full gap-9 md:pt-0 md:pr-0 md:pl-8">
         <div class="flex justify-between items-center">
             <div class="logo">
                 <img class="md:hidden" src="./assets/home/logo.svg" alt="logo">
@@ -36,44 +36,49 @@
             </div>
         </div>
         <div class="flex flex-col desktop:flex-row font-normal text-center xl:text-left gap-y-8 md:mt-2 xl:mt-40">
-            <div class="desktop::flex desktop:flex-row desktop:pl-[140px] lg:flex lg:flex-row">
-                <div class="lg:flex-1 lg:flex lg:flex-col lg:gap-8">
+            <div
+                class="hidden font-Barlow text-lg md:text-xl tracking-wider md:flex md:tracking-widester leading-5 uppercase xl:text-[28px]">
+                <span class="opacity-50">02</span> Meet your crew
+            </div>
+            <div
+                class="desktop:flex desktop:flex-row desktop:pl-[140px] lg:flex lg:flex-row md:flex md:flex-col-reverse">
+                <div class="lg:flex-1 lg:flex lg:flex-col lg:gap-8 ">
                     <div
-                        class="font-Barlow text-lg md:text-xl tracking-wider md:flex md:tracking-widester leading-5 uppercase xl:text-[28px]">
+                        class="md:hidden font-Barlow text-lg md:text-xl tracking-wider md:tracking-widester leading-5 uppercase xl:text-[28px]">
                         <span class="opacity-50">02</span> Meet your crew
                     </div>
                     <div class="flex justify-center flex-shrink grow 
-                    pt-16 xl:flex-1 border-b-[0.1px] ">
+                    pt-16 xl:flex-1 border-b-[0.1px] md:border-b-0 ">
                         <!-- crew image -->
                         <img id="crew-image" class="w-1/2" src="./assets/crew/image-douglas-hurley.png" alt="moon">
                     </div>
                 </div>
-                <div class="lg:flex-1 lg:text-left lg:flex lg:flex-col lg:gap-8 desktop:pl-[100px]">
+                <div class="lg:flex-1 lg:text-left lg:flex lg:flex-col lg:gap-8 desktop:pl-[100px] flex flex-col">
                     <div
-                        class="flex flex-row  lg:justify-start lg:pl-0 lg:gap-8  mt-5 mb-5 justify-center gap-5 md:justify-center md:gap-14 md:mt-10 md:mb-10">
+                        class="flex md:order-4 flex-row lg:justify-start lg:pl-0 lg:gap-8  mt-5 mb-5 justify-center gap-5 md:justify-center md:gap-14 md:mt-10 md:mb-10">
                         <button value="Douglas Hurley">
-                            <div class="dests moon">
+                            <div class="">
                                 <i class="fa-solid fa-circle"></i>
                             </div>
                         </button>
                         <button value="Mark Shuttleworth">
-                            <div class="dests  border-white  opacity-50 mars active:opacity-100 "><i
+                            <div class=" border-white  opacity-50 mars active:opacity-100 "><i
                                     class="fa-solid fa-circle"></i></div>
                         </button>
                         <button value="Victor Glover">
-                            <div class="dests  border-white  opacity-50 Europa"><i class="fa-solid fa-circle"></i></div>
+                            <div class="  border-white  opacity-50 "><i class="fa-solid fa-circle"></i></div>
                         </button>
                         <button value="Anousheh Ansari">
-                            <div class="dests  border-white  opacity-50 titan"><i class="fa-solid fa-circle"></i></div>
+                            <div class="  border-white  opacity-50 "><i class="fa-solid fa-circle"></i></div>
                         </button>
                     </div>
-                    <div class="text-base tracking-wider role opacity-50 uppercase">Commander</div>
-                    <div class="font-Bellefair uppercase text-xl text-white md:text-9xl crewname">
+                    <div class="text-base tracking-wider role opacity-50 uppercase md:pb-4 md:text-2xl ">Commander</div>
+                    <div class="font-Bellefair uppercase text-xl text-white md:text-5xl crewname ">
                         <!-- crew name-->
                         Douglas Hurley
                     </div>
-                    <div class="bio font-Barlow text-xs lg:pl-0 leading-6 py-5 md:text-lg md:pr-24 lg:pr-11 
-                        md:pl-24 xl:pl-0 xl:text-[18px] xl:leading-loose md:mt-10">
+                    <div class="bio font-Barlow text-xs lg:pl-0 leading-6 py-5  md:text-lg md:pr-24 lg:pr-11 
+                        md:pl-24 xl:pl-0 xl:text-[18px] xl:leading-loose md:mt-0">
                         <!-- crew description-->
                         Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA
                         astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.

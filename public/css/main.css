@@ -468,6 +468,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -532,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -794,6 +818,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-4 {
+    order: 4;
+  }
+
   .md\:mt-28 {
     margin-top: 7rem;
   }
@@ -808,6 +840,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {
@@ -842,6 +878,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
   .md\:items-center {
     align-items: center;
   }
@@ -856,6 +896,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:gap-14 {
     gap: 3.5rem;
+  }
+
+  .md\:border-b-0 {
+    border-bottom-width: 0px;
   }
 
   .md\:bg-\[url\(\'\.\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
@@ -876,6 +920,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:bg-\[url\(\'\.\.\/assets\/crew\/background-crew-tablet\.jpg\'\)\] {
     background-image: url('../assets/crew/background-crew-tablet.jpg');
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:pt-0 {
@@ -910,6 +969,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2.5rem;
   }
 
+  .md\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -923,6 +986,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:uppercase {
@@ -1111,6 +1189,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .desktop\:block {
     display: block;
+  }
+
+  .desktop\:flex {
+    display: flex;
   }
 
   .desktop\:flex-row {
